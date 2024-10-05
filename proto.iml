@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/proto" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/proto/target/generated-sources/protobuf/grpc-java" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/proto/target/generated-sources/protobuf/java" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/proto/target/generated-sources/protobuf/grpc-java/com/microservices/ecommerce/product/grpc" />
+    </content>
+  </component>
+</module>

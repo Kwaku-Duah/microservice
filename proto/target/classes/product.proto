@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.microservices.ecommerce.grpc;
+
+option java_outer_classname = "ProductProto";
+
+message ProductRequest {
+  int64 productId = 1;
+}
+message ProductResponse {
+  int64 productId = 1;
+  string name = 2;
+  string description = 3;
+  double quantity = 4;
+  double price = 5;
+}
+service ProductService {
+  rpc GetProduct (ProductRequest) returns (ProductResponse);
+}
